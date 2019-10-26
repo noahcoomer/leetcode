@@ -8,7 +8,8 @@
 #         self.left = None
 #         self.right = None
 
-import deque, popleft from collections
+from collections import deque
+from helpers.CreateBinaryTree import CreateBinaryTree
 
 class Solution(object):
     def maxDepth(self, root):
@@ -19,15 +20,26 @@ class Solution(object):
         if not root:
             return 0
 
-        queue = [(root, 1)]
-        max_depth = 0
-        
+        queue = [root]
+        depth = 0
+
         while queue:
-            for node, depth in queue:
-                max_depth = max(max_depth, depth)
+            depth += 1
+            new_queue = []
+            for node in queue:
                 if node.left:
-                    new_queue.append((node.left, depth + 1))
+                    new_queue.append(node.left)
                 if node.right:
-                    new_queue.append((node.right, depth + 1))
-            
-        return max_depth
+                    new_queue.append(node.right)
+            queue = new_queue
+        
+        return depth
+
+
+if __name__ == '__main__':
+    case = [3, 9, 20, None, None, 15, 7]
+    root = CreateBinaryTree(case)
+
+    solution = Solution()
+    answer = solution.maxDepth(root)
+    print(answer)
