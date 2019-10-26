@@ -11,6 +11,8 @@
 from collections import deque
 from helpers.CreateBinaryTree import CreateBinaryTree
 
+# Runtime: O(n + e) - nodes  + edges
+# Space: O(log n) - at worst an entire row of nodes
 class Solution(object):
     def maxDepth(self, root):
         """
