@@ -10,5 +10,6 @@ A compilation of the LeetCode problem solutions authored by yours truly. Solutio
 125. Valid Palindrome - `python/isPalindrome.py`
 206. Reverse Linked List - `python/reverseList.py`
 242. Valid Anagram - `python/isAnagram.py`
+278. First Bad Version - `python/firstBadVersion.py`
 283. Move Zeroes - `python/moveZeroes.py`
 387. First Unique Character in a String - `python/firstUniqChar`
