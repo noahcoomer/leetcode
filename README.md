@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-A compilation of the LeetCode problem solutions authored by yours truly.
+A compilation of the LeetCode problem solutions authored by yours truly. Solutions inside the `python` folder written in Python 3.
 
 # Quick Reference
 
@@ -10,3 +10,4 @@ A compilation of the LeetCode problem solutions authored by yours truly.
 125. Valid Palindrome - `python/isPalindrome.py`
 206. Reverse Linked List - `python/reverseList.py`
 283. Move Zeroes - `python/moveZeroes.py`
+387. First Unique Character in a String - `python/firstUniqChar`
