@@ -11,7 +11,16 @@ class Solution(object):
         :rtype: bool
         """
         def recursive(root):
-            return True
+            def recurse(left, right):
+                if not left and not right:
+                    return True
+                if not left or not right:
+                    return False
+                return left.val == right.val and recurse(left.left, right.right) and recurse(left.right, right.left)
+
+            if not root:
+                return True
+            return recurse(root, root)
         
         def iterative(root):
             if not root:
@@ -40,10 +49,8 @@ class Solution(object):
                 level = []
             return True
             
-
-        return iterative(root)
+        return recursive(root)
     
-        
 
 if __name__ == '__main__':
     solution = Solution()
