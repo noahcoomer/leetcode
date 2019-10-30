@@ -7,6 +7,7 @@ A compilation of the LeetCode problem solutions authored by yours truly. Solutio
 1. Two Sum - `python/twoSum.py`
 19. Remove Nth Node From End of List - `python/removeNthFromEnd.py`
 28. Implement strStr() - `python/strStr.py`
+101. Symmetric Tree - `python/isSymmetric.py`
 104. Maximum Depth of Binary Tree - `python/maxDepth.py`
 125. Valid Palindrome - `python/isPalindrome.py`
 206. Reverse Linked List - `python/reverseList.py`
