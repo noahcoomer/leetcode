@@ -7,6 +7,7 @@ A compilation of the LeetCode problem solutions authored by yours truly. Solutio
 1. Two Sum - `python/twoSum.py`
 19. Remove Nth Node From End of List - `python/removeNthFromEnd.py`
 28. Implement strStr() - `python/strStr.py`
+88. Merge Sorted Array - `python/mergeSortedArray.py`
 101. Symmetric Tree - `python/isSymmetric.py`
 102. Binary Tree Level Order Traversal - `python/levelOrder.py`
 104. Maximum Depth of Binary Tree - `python/maxDepth.py`
