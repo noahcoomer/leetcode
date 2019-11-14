@@ -17,5 +17,5 @@ A compilation of the LeetCode problem solutions authored by yours truly. Solutio
 - 278. First Bad Version - `python/firstBadVersion.py`
 - 283. Move Zeroes - `python/moveZeroes.py`
 - 387. First Unique Character in a String - `python/firstUniqChar.py`
+- 606. Construct String from Binary Tree - `python/treeToString.py`
 - 819. Most Common Word - `python/mostCommonWord.py`
-
